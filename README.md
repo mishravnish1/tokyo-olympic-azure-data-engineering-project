@@ -46,29 +46,6 @@ Azure Synapse Analytics - Data Analysis
 Power BI - Visualization & Reporting
 
 
-
-
-
-
-# 🏅 Tokyo Olympics Azure Data Engineering Project  
-
-An **end-to-end Data Engineering pipeline** built on **Microsoft Azure** to analyze the Tokyo Olympics dataset.  
-This project demonstrates how to build a modern data pipeline using cloud technologies with the **Medallion Architecture (Bronze → Silver → Gold)** approach.  
-
----
-
-## 🚀 Architecture  
-
-![Architecture](images/architecture.png)  
-*(Add your architecture diagram in `images/architecture.png`)*  
-
-**Workflow:**  
-1. **Azure Data Factory (ADF):** Ingest raw CSV files into **Azure Data Lake Storage Gen2 (ADLS Gen2)**.  
-2. **Azure Databricks (PySpark):** Transform raw data into curated form using Spark.  
-3. **ADLS Gen2:** Store curated data (Silver/Gold layers).  
-4. **Azure Synapse Analytics:** Query and analyze the curated data.  
-5. **Power BI:** Build interactive dashboards for insights.  
-
 ---
 
 ## ⚙️ Tech Stack  
